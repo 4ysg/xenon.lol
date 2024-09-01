@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Funky;
+    src: url(assets/Funky.ttf);
+}
+
+.bdy {
+    font-family: Arial, sans-serif; /* Default font family for body text */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(33, 33, 33);
+    color: gray;
+    -webkit-text-stroke: 1px black;
+}
+
+.foot {
+    -webkit-text-stroke: 0px;
+    margin-top: 340px;
+    font-family: 'Funky', sans-serif;
+    color: gray;
+    font-size: 10px;
+    text-align: right;
+    text-align: end;
+}
+
+.head {
+    font-size: 25px;
+    font-family: 'Funky', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.head1 {
+    font-size: 30px;
+    font-family: 'Funky', sans-serif;
+    margin-top: 60px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-link {
+    text-decoration: none; /* Remove default link underline */
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #274bcb; /* Discord blue */
+    border: none;
+    border-radius: 8px;
+    padding: 15px 25px;
+    color: rgb(211, 211, 211);
+    font-size: 15px;
+    font-family: 'Funky', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    outline: none;
+    -webkit-text-stroke: 0px;
+}
+
+.btn:hover {
+    background-color: #5a6bdb; /* Slightly darker blue on hover */
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.alien {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.btn-txt {
+    display: inline-block;
+}
