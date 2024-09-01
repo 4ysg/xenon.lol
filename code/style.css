@@ -1,6 +1,6 @@
 @font-face {
     font-family: Funky;
-    src: url(assets/Funky.ttf);
+    src: url(/assets/Funky.ttf);
 }
 
 .bdy {
